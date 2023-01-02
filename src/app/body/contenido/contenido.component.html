@@ -1,2 +1,17 @@
-<p>contenido works!</p>
-<button></button>
+<div id="contenido">
+    <div id="section">
+        <div id="titulo">
+            <h2>Componente Contenido</h2>
+        </div>
+        <div id="text">
+            <p>{{nombreComponent}}</p>
+        </div>    
+        <div id="boton">
+            <button type="button" class="btn btn-primary" (click)="ChangeNombreContenido()">Cambiar Barra Lateral</button>
+        </div>
+    </div>
+    <div id="barralat">
+        <app-barralat [nombreBarraLat]="nombreComponent" (cambioNombreContenido)="nombreComponent = $event"></app-barralat>
+    </div>
+</div>
+

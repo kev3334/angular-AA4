@@ -10,6 +10,9 @@ import { MenunavComponent } from './menunav/menunav.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    MenunavComponent
   ]
 })
 export class HeaderModule { }

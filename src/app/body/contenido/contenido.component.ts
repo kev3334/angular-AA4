@@ -12,4 +12,8 @@ export class ContenidoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  nombreComponent="Juan Perez";
+  ChangeNombreContenido(){
+    this.nombreComponent="Steven Tyler";
+  }
 }

@@ -10,6 +10,8 @@ import { BarrafooterComponent } from './barrafooter/barrafooter.component';
   ],
   imports: [
     CommonModule
+  ],exports:[
+    BarrafooterComponent
   ]
 })
 export class FooterModule { }
